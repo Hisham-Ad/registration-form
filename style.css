@@ -1,100 +1,20 @@
-body {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  justify-content: flex-start;
-  min-height: 100vh;
-  background-color: #2B1C10;
-  font-family: Arial, sans-serif;
-  color: #eeeeee;
-  font-size: 20px;
-  line-height: 1.5;
-  padding: 30px 10px;
-}
+// This configuration file allows you to pass permanent command line arguments to VS Code.
+// Only a subset of arguments is currently supported to reduce the likelihood of breaking
+// the installation.
+//
+// PLEASE DO NOT CHANGE WITHOUT UNDERSTANDING THE IMPACT
+//
+// NOTE: Changing this file requires a restart of VS Code.
+{
+	// Use software rendering instead of hardware accelerated rendering.
+	// This can help in cases where you see rendering issues in VS Code.
+	// "disable-hardware-acceleration": true,
 
+	// Allows to disable crash reporting.
+	// Should restart the app if the value is changed.
+	"enable-crash-reporter": true,
 
-h1,p {
-  text-align: center;
-  margin-bottom: 5px;
-}
-
-
-h1 {
-  font-size: 30px;
-}
-
-
-form {
-  display: flex;
-  flex-direction: column;
-  gap: 15px;
-  align-items: center;
-  width: 80%;
-  max-width: 700px;
-  margin: 0 auto;
-  padding: 20px 30px;
-  background-color: #3B2B1A;
-  border-radius: 10px;
-}
-
-
-fieldset {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  width: 100%;
-  border: none;
-  gap: 2px;
-  padding: 0;
-}
-
-
-fieldset:last-of-type {
-  margin-bottom: 0;
-}
-
-
-select {
-  font-size: 17px;
-  padding: 7px;
-  border-radius: 6px;
-  width: 100%;
-  max-width: 200px;
-}
-
-
-input[type="text"],
-input[type="email"],
-input[type="password"] {
-  display: block;
-  width: 90%;
-  max-width: 100%;
-  border: none;
-  outline: none;
-  height: auto;
-  font-size: 18px;
-  padding: 8px;
-  border-radius: 6px;
-}
-
-
-input[type="submit"] {
-  display: block;
-  color: black;
-  width: 50%;
-  max-width: 500px;
-  height: auto;
-  font-size: 20px;
-  padding: 8px;
-  cursor: pointer;
-  border-radius: 6px;
-  transform-origin: center;
-  transition: transform 0.2s ease, background-color 0.2s ease, box-shadow 0.2s ease;
-}
-
-
-input[type="submit"]:hover {
-  background-color: #bbbbbb;
-  box-shadow: 0px 0px 15px rgba(255, 255, 255, 0.3);
-  transform: scale(1.05);
+	// Unique id used for correlating crash reports sent from this instance.
+	// Do not edit this value.
+	"crash-reporter-id": "99c78221-ed37-46e0-ab07-7bed4c04db0a"
 }
